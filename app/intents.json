@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Good day", "Is anyone there?"],
+            "responses": ["Hello, let's talk", "Greetings", "Hi there"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Talk to you later", "Goodbye"],
+            "responses": ["Have a nice day", "Bye! Talk to you soon.", "See you later"]
+        },
+        {
+            "tag": "anxiety",
+            "patterns": ["I feel anxious", "Ugh", "I feel stressed"],
+            "responses": ["What is making you feel that way?", "How about we look at some calming images", "Don't worry, I am here for you"]
+        }
+    ]
+}
